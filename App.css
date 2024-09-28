@@ -1,0 +1,120 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  font-family: 'Poppins', sans-serif; /* Set Poppins as the default font */
+  background-color: #f9f9f9; /* Light gray background for the whole app */
+}
+
+.App-header {
+  background-color: #fff9c4; /* Lighter baby yellow */
+  color: #333; /* Dark text for contrast */
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.App-logo {
+  height: 40px;
+  margin-right: 10px;
+}
+
+/* Bubble letters using a custom font */
+.App-header h1 {
+  font-family: 'Poppins', sans-serif; /* Use Poppins for the header */
+  font-size: 32px;
+  text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.8);
+}
+
+.App-main {
+  display: flex;
+  padding: 20px;
+}
+
+.Sidebar {
+  flex: 0 0 240px; /* Increased width for the sidebar */
+  background-color: #ffffff; /* White background for the sidebar */
+  padding: 20px;
+  border-radius: 8px; /* Rounded corners for the sidebar */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.Sidebar h3 {
+  margin-bottom: 15px;
+  font-weight: 600; /* Use a bold weight for the sidebar heading */
+}
+
+.Sidebar ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.Sidebar li {
+  margin: 10px 0; /* Add margin to separate items */
+}
+
+.Sidebar a {
+  text-decoration: none;
+  color: #333;
+  display: block; /* Use block display for full width */
+  padding: 15px; /* Add padding for a comfortable click area */
+  border-radius: 20px; /* Make it rounded */
+  background-color: rgba(255, 249, 196, 0.7); /* Light baby yellow background */
+  transition: background-color 0.3s; /* Smooth background change on hover */
+}
+
+.Sidebar a:hover {
+  background-color: rgba(255, 249, 196, 1); /* Full baby yellow on hover */
+}
+
+/* Updated styles for the add post button */
+.add-post-button {
+  background-color: #001f3f; /* Navy blue color */
+  color: #ffffff; /* White text color */
+  font-family: 'Poppins', sans-serif; /* Poppins font */
+  border: none;
+  padding: 10px;
+  border-radius: 20px; /* Make it rounded */
+  cursor: pointer;
+  width: 100%;
+  margin-top: 20px;
+  font-size: 16px; /* Font size */
+}
+
+.add-post-button:hover {
+  background-color: #003366; /* Slightly darker navy blue on hover */
+}
+
+.Community-posts {
+  flex: 1; /* Take remaining space */
+  padding: 20px;
+  background-color: #ffffff; /* White background for community posts */
+  border-radius: 8px; /* Rounded corners for community posts */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.post {
+  margin-bottom: 20px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px; /* Rounded corners for individual posts */
+  background-color: #ffffff; /* White background for individual posts */
+}
+
+.App-footer {
+  background-color: #fff9c4; /* Lighter baby yellow */
+  color: #333; /* Dark text for contrast */
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
